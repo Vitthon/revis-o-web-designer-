@@ -1,0 +1,84 @@
+body{
+margin: 0;
+
+
+}
+
+h1{
+color: #BE2233;
+font-weight: 400;
+margin-left: 300px;
+}
+
+.barra-superior{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 10px;
+border-bottom: 1px solid #e0e0e0;
+background: #FFFDF0;
+border: none;
+}
+
+.barra-pesquisa{
+display: flex;
+align-items: center;
+background-color: #F4D9D2;
+border-radius: 5px;
+}
+
+
+.lupa{
+    background: none;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #8b5c5c;
+}
+
+input{
+    border: none;
+    background: transparent;
+    padding: 5px 100px;
+outline: none;
+font-size: 14px;
+color: #CC876A;
+}
+
+input::placeholder{
+margin-left: 10px;
+color: #BE2233;
+font-size: 14px;
+}
+
+.superior-direita {
+display: flex;
+  align-items: center;
+  margin-right: 300px;
+  gap: 15px;
+  font-size: 14px;
+}
+
+
+.conta{
+display: flex;
+flex-direction: column;
+
+}
+
+.linha{
+
+border: none;
+border-top: 1px solid #e63d13;
+margin: 0;
+}
+
+
+nav{
+display: flex;
+justify-content: center;
+gap: 25px;
+padding: 10px 0;
+font-size: 20px;
+}

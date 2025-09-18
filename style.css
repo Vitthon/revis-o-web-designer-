@@ -81,5 +81,55 @@ justify-content: center;
 gap: 25px;
 padding: 10px 0;
 font-size: 20px;
+margin-top: 10px;
+margin-bottom: 15px;
 }
 
+h2{
+text-align: center;
+color: #CC876A;
+font-size: 36px;
+}
+
+.grid-produtos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #DEDEDE;
+  border-radius: 6px;
+
+  padding: 0px;
+}
+
+.cards img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.cards h3{
+  color: #CC876A;
+  font-size: 24px;
+  margin: 8px 15px  4px;
+}
+
+.cards .preço{
+margin: 8px 15px  4px;
+font-weight: bold;
+color: #346D9E;
+font-size: 24px;
+}
+
+.cards p{
+  margin: 0px 15px  4px;
+  font-size: 14px;
+  color: #346D9E;
+
+}
